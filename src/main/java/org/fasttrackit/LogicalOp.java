@@ -33,8 +33,12 @@ public class LogicalOp {
         System.out.println("Please insert the numbers.");
         int x = scanner.nextInt();
         int y = scanner1.nextInt();
-        for (; x <= y; x++){
+        for (; x < y; x++){
             System.out.println(x);
+            if (x > y){
+
+
+            }
         }
     }
 }
