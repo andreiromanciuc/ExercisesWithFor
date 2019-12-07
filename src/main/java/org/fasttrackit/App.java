@@ -7,7 +7,8 @@ public class App
     public static void main( String[] args )
     {
         LogicalOp logicalOp = new LogicalOp();
-        logicalOp.arrange();
+        logicalOp.arrangeToMax();
+        logicalOp.arrangeToMin();
 
     }
 }
