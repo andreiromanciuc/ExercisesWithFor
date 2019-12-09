@@ -82,6 +82,19 @@ public class LogicalOp {
         }
     }
 
+    public void sumFromAverage(){
+        System.out.println("Please insert your number.");
+        Scanner scanner = new Scanner (System.in);
+
+        for (int i = scanner.nextInt(); i < 100; i++) {
+            int n = (i * (i + 1)) / 2;
+            int x = 100-i;
+            int z = (5050 - n)/x;
+            double y = (double)z;
+            System.out.println(y);
+            break;
+        }
+    }
 
 }
 
