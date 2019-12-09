@@ -76,8 +76,7 @@ public class LogicalOp {
 
         for (int i = scanner.nextInt(); i < 100; i++) {
             int n = (i * (i + 1)) / 2;
-            int x = 5050;
-            int z = x - n;
+            int z = 5050 - n;     //5050 este suma tuturor numerelor de la 1 la 100;
             System.out.println(z);
             break;
         }
