@@ -71,7 +71,10 @@ public class LogicalOp {
 
 
     public void sumFrom() {
-        for (int i = 60; i < 100; i++) {
+        System.out.println("Please insert your number.");
+        Scanner scanner = new Scanner (System.in);
+
+        for (int i = scanner.nextInt(); i < 100; i++) {
             int n = (i * (i + 1)) / 2;
             int x = 5050;
             int z = x - n;
