@@ -73,10 +73,10 @@ public class LogicalOp {
     public void sumFrom() {
         System.out.println("Please insert your number.");
         Scanner scanner = new Scanner (System.in);
-
-        for (int i = scanner.nextInt(); i < 100; i++) {
-            int n = (i * (i + 1)) / 2;
-            int z = 5050 - n;     //5050 este suma tuturor numerelor de la 1 la 100;
+        for (int i = scanner.nextInt(); i <= 100; i++) {
+            int n = 5050- (i * (i + 1)) / 2; //5050 este suma tuturor numerelor de la 1 la 100;
+            int m = 100-i;
+            int z = n - m;
             System.out.println(z);
             break;
         }
@@ -89,7 +89,7 @@ public class LogicalOp {
         for (int i = scanner.nextInt(); i < 100; i++) {
             int n = (i * (i + 1)) / 2;
             int x = 100-i;
-            int z = (5050 - n)/x;
+            int z = (5050 - n-x)/x;
             double y = (double)z;
             System.out.println(y);
             break;
